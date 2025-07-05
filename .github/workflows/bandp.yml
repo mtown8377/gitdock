@@ -19,6 +19,6 @@ jobs:
 
       - name: Push docker images
         run: |
-          docker login -u ghghghg -p ${{ secrets.DOCKER_HUB_TOKEN }}
+          docker login -u johnstok815 -p ${{ secrets.DOCKER_HUB_TOKEN }}
           docker push johnstok815/gitdock:latest
 
